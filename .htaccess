@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www\.bawebstudio\.com [NC]
+RewriteRule ^(.*)$ https://bawebstudio.com/$1 [L,R=301]
