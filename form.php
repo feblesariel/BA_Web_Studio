@@ -15,8 +15,8 @@ $body = "Nombre: ".$name."\nE-mail: ".$email."\nWhatsApp: ".$phone."\nComentario
 
 if ($name != "") {
 mail($to,$subjet,$body,$header);
-header("Location: https://www.bawebstudio.com/");    
+header("Location: https://bawebstudio.com/");    
 } else
-header("Location: https://www.bawebstudio.com/");
+header("Location: https://bawebstudio.com/");
 
 ?>
