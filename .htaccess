@@ -1,3 +1,8 @@
 RewriteEngine On
+
+# Redirección de www a no-www
 RewriteCond %{HTTP_HOST} ^www\.bawebstudio\.com [NC]
 RewriteRule ^(.*)$ https://bawebstudio.com/$1 [L,R=301]
+
+# Ocultar el nombre del archivo
+RewriteRule ^en/index\.html$ /en [L,R=301]
