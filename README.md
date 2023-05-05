@@ -7,4 +7,5 @@ Se usaron las siguientes tecnologias y librerias:
 HTML<br>
 CSS<br>
 JavaScript<br>
+PHP<br>
 Bootstrap<br>
