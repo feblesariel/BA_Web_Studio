@@ -8,7 +8,7 @@ RewriteRule ^(.*)$ https://bawebstudio.com/$1 [L,R=301]
 RewriteRule ^en/index\.html$ /en [L,R=301]
 
 # Ocultar el nombre del archivo
-RewriteRule ^views/messege\.html$ /views/gracias [L,R=301]
+RewriteRule ^views/message\.html$ /views/gracias [L,R=301]
 
 # Ocultar el nombre del archivo
-RewriteRule ^views/messegeEN\.html$ /views/thanks [L,R=301]
+RewriteRule ^views/messageEN\.html$ /views/thanks [L,R=301]

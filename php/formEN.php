@@ -15,7 +15,7 @@ $body = "Name: ".$name."\nE-mail: ".$email."\nWhatsApp: ".$phone."\nMessage: ".$
 
 if ($name != "") {
 mail($to,$subjet,$body,$header);
-header("Location: ../views/messegeEN.html");
+header("Location: ../views/messageEN.html");
 exit();   
 } else
 header("Location: ../index.html");
