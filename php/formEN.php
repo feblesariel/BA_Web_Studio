@@ -15,9 +15,9 @@ $body = "Name: ".$name."\nE-mail: ".$email."\nWhatsApp: ".$phone."\nMessage: ".$
 
 if ($name != "") {
 mail($to,$subjet,$body,$header);
-header("Location: ../views/messageEN.html");
+header("Location: ../views/thanks.html");
 exit();   
 } else
-header("Location: ../index.html");
+header("Location: https://bawebstudio.com/en/");
 exit();
 ?>
