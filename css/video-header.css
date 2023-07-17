@@ -38,11 +38,13 @@ header .overlay {
   z-index: 1;
 }
 
-@media screen and (max-width: 767px) {
+/*Imagen en resoluciones pequeñas*/
+
+/* @media screen and (max-width: 767px) {
   header {
     background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
   }
   header video {
     display: none;
   }
-}
+} */
