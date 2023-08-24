@@ -7,8 +7,4 @@ RewriteRule ^(.*)$ https://bawebstudio.com/$1 [L,R=301]
 # Redirección de la URL con extensión a la URL sin extensión
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^([^\.]+)$ $1.html [NC,L]
-
-# Redirección de la URL con extensión a la URL sin extensión
-RewriteRule ^en/index\.html$ /en [L,R=301]
 RewriteRule ^views/gracias\.html$ /views/gracias [L,R=301]
-RewriteRule ^views/thanks\.html$ /views/thanks [L,R=301]
